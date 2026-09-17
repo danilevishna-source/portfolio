@@ -1,0 +1,40 @@
+# Only the video/image assets actually referenced by index-2.html are tracked.
+# Everything else (raw originals, unused duplicate folders, the uncropped
+# screenshot) is excluded to keep the repo small and stays local only.
+# Filenames are listed explicitly (not by *.MOV wildcard) because this repo
+# has core.ignorecase=true, and a wildcard would also match needed .mp4 files.
+.DS_Store
+
+videos/IMG_3119.MOV
+videos/IMG_5421.MOV
+videos/авто/
+videos/логистика/
+videos/социалка/
+
+videos/NEUROMOBIL/IMG_5399.MOV
+videos/NEUROMOBIL/IMG_5694.MOV
+videos/NEUROMOBIL/IMG_5858.MOV
+
+videos/farm/IMG_9342.PNG
+
+videos/portfolio/IMG_0607.MOV
+videos/portfolio/IMG_0608.MOV
+videos/portfolio/IMG_3016.MOV
+videos/portfolio/IMG_3016.mp4
+videos/portfolio/IMG_3153.MOV
+videos/portfolio/IMG_3557.MOV
+videos/portfolio/IMG_3874.MOV
+videos/portfolio/IMG_3953.MOV
+videos/portfolio/IMG_4070.MOV
+videos/portfolio/IMG_4108.MOV
+videos/portfolio/IMG_4334.MOV
+videos/portfolio/IMG_4626.MOV
+videos/portfolio/IMG_4987.MOV
+videos/portfolio/IMG_5487.MOV
+videos/portfolio/IMG_6037.MOV
+videos/portfolio/IMG_8555.MOV
+videos/portfolio/IMG_9303.MOV
+
+videos/portfolio/BEST/IMG_0927.MOV
+videos/portfolio/BEST/IMG_3434.MOV
+videos/portfolio/BEST/IMG_4425.MOV
